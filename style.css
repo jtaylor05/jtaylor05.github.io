@@ -1,0 +1,55 @@
+:root {
+  --main-bg-color: #E7ECEF;
+  --secondary-bg-color: #274C77;
+  --tertiary-bg-color: #6096BA;
+  --quaternary-bg-color: #A3CEF1;
+}
+
+body {
+  margin: 0;
+  color: black;
+  background-color: var(--main-bg-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.navbar {
+  list-style-type: none;
+  min-height: 50px;
+  z-index : 1;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--secondary-bg-color);
+}
+
+.navbar-item {
+  float: left;
+}
+
+.navbar-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  background-color: #111111;
+}
+
+.horizontal {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
