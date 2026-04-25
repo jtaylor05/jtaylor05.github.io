@@ -1,30 +1,34 @@
+:root {
+  --main-bg-color: #E7ECEF;
+  --secondary-bg-color: #274C77;
+  --tertiary-bg-color: #6096BA;
+  --quaternary-bg-color: #A3CEF1;
+}
+
 body {
   margin: 0;
-  color: white;
-  background-color: #555555;
+  color: black;
+  background-color: var(--main-bg-color);
   display: flex;
   flex-direction: column;
   height: 100vh;
   
 }
 
-#content {
+.content {
   display: flex;
   flex-direction: row;
   flex: 1;
 }
 
-#words {
-  margin: 3em 1em
-}
-
 .navbar {
   list-style-type: none;
+  min-height: 50px;
   z-index : 1;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: var(--secondary-bg-color);
 }
 
 .navbar-item {
@@ -43,17 +47,9 @@ body {
   background-color: #111111;
 }
 
-.sidebar-right {
+.horizontal {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
   justify-content: center;
-  height: 100%;
-  width: 300px;    
-  margin-left: auto;      
-  background-color: #444444;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.important {
-  text-align: center;
-  font-size: 30px;
 }
