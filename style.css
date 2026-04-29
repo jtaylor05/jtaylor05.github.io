@@ -44,7 +44,7 @@ body {
 }
 
 .navbar-link:hover {
-  background-color: #111111;
+  background-color: var(--quaternary-bg-color);
 }
 
 .horizontal {
@@ -52,4 +52,23 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: center;
+}
+
+.important {
+  text-align: center;
+  font-size: 30px;
+}
+
+.words {
+  margin: 3em auto;
+  max-width: 800px;
+  justify-content: center;
+}
+
+.words img {
+  display: block;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }

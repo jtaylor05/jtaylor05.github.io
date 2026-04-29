@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<header>
+    <link rel="stylesheet" href="../style.css">
+</header>
+<body>
+    <ul class="navbar">
+        <li class="navbar-item" ><a class="navbar-link" href="..">Home</a></li>
+        <li class="navbar-item" ><a class="navbar-link" href="../games.html">Games</a></li>
+        <li class="navbar-item" ><a class="navbar-link" href="research.html">Research</a></li>
+    </ul>
+    <div class="content">
+        <div class="words">
+            <p class="important">C++ based Graphics Engine</p>
+            <p>
+                To practice my C++, I built a graphics enginge from scratch based on a course I took at the same time. I implemented ray-tracing based rendering, including, shadows, materials, reflection, and monte carlo sampling. What follows are just a few examples of my engines capabilities.
+            </p>
+            <img src="../assets/diffuse-reflective-sphere.png" alt="A ray-traced image of a reflective sphere with a diffuse material in an environment map">
+            <p>A ray-traced image of a reflective sphere with a diffuse material in an environment map</p>
+            <img src="../assets/soft-shadows.png" alt="scene with soft shadows and reflective walls">
+            <p>A scene with soft shadows and reflective walls. You can see the montecarlo simulation with the slight randomness in the color. Also an area light is used for light sampling.</p>
+            <img src="../assets/buddha.png" alt="a ray-traced image of the buddha statue">
+            <p>A ray-traced image of the buddha statue. Displays the full power of optimizations as it contains over 100,000 triangles. Rendered in 2.5 seconds using BVH.</p>
+        </div>
+    </div>
+</body>
