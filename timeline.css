@@ -54,6 +54,10 @@
   transition: transform 0.3s ease-in-out;
 }
 
+.container:has(a)::after {
+  background-color: green;
+}
+
 .container a {
   position: absolute;
   margin: 4px;
